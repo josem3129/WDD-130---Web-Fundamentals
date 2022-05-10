@@ -1,0 +1,27 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+   
+}
+header{
+    background-color: aquamarine;
+    font-size: x-large;
+    text-align: center;
+    color: rgb(97, 69, 69);
+}
+main p {
+    text-align: center;
+    font-size: large;
+}
+.hero-img{
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-img p {
+    font-size: xx-large;
+    text-align: center;
+   
+}
+#background {
+    background-color: rgba(96, 126, 133, 0.247);
+}
