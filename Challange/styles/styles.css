@@ -1,0 +1,27 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+* {
+    border: 10px black;
+}
+.list {
+margin: 10 auto ;
+}
+h1 {
+    font-size: small;
+}
+#title {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+header:hover {
+    color: white;
+}
+*{
+    border: 2px solid blue;
+}
+main p {
+    color: white;
+    font-size: 3.5em;
+}

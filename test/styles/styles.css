@@ -6,3 +6,40 @@
     background-color: white;
     color: steelblue;
 }
+img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+p {
+    width: 80%;
+}
+a{
+    font-size: 1.5rem;
+}
+
+body {
+    text-align: center;
+    
+}
+h1 {
+    text-align: center;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+footer, nav {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
