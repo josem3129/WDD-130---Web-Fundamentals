@@ -43,3 +43,9 @@ a:hover {
     background-color: white;
     color: steelblue;
 }
+.hero{
+    width: 50%;
+}
+#hero-box{
+    width: 80px;
+}
