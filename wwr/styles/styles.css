@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Poppins:wght@500&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 nav a {
     text-align: center;
     color: #DCF763;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -16,12 +20,19 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #435058;
 }
 body {
     background-color: white;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color: #435058;
@@ -34,6 +45,11 @@ nav a:hover {
     background-color: #435058;
     color: white;
     text-decoration: none;
+    font-family: Kalam, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #848C8E;
@@ -41,21 +57,41 @@ nav a:hover {
 }
 .msg {
     background-color: #55B5E9;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 150px;
+}
+.mountains{
+    margin-top: 100px;
 }
 footer {
     background-color: #848C8E;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+    padding-top: 15px;
 }
 .home-title {
     color: #435058;
+    font-family: Kalam, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #435058;
+}
+h2{
+    margin: 0;
 }
 .msg h2{
     color: black;
 }
 .msg p {
     color: white;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3{
     color: #DCF763;
@@ -69,7 +105,17 @@ footer a:hover{
 }
 .icon, .logo{
     width: 80pxs;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
+}
+#logo_link {
+padding-top: 5px;
+}
+.river-card, .camping-card, .rapids-card{
+    margin: 200px;
+}  
+.card-img {
+    border: 10px solid #55B5E9;
 }
