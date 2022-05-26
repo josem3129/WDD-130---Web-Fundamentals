@@ -1,0 +1,14 @@
+div {
+    background-color: white;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 55px;
+    margin: 30px;
+    background-color: #435058;
+    color: white;
+}
+header{
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
