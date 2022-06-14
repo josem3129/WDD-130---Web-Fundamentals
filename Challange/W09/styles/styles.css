@@ -1,0 +1,44 @@
+#chalange{
+    border-radius: 55em black;
+    max-width: 600px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+#title {
+    text-align: center;
+}
+#main_bod{
+    text-align: center;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(3, 113, 150);
+    color: white;
+}
+.media_card1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.media_card2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.media_card3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.title_card{
+    text-size-adjust: 80%;
+}

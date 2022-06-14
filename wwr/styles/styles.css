@@ -188,7 +188,86 @@ footer a:hover{
     grid-column: 8/10;
     grid-row: 2/3;
 }
+.salmon-img, .utah-img, .canyon-img{
+    width: 500px;
+    height: 500px;
+    float: center;
+    object-fit: cover;
+    
+    box-shadow: 5px 5px 10px #6f7364;
+    
+    
+}
+.salmon-card, .utah-card, .canyon-card{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+.salmon-info, .utah-info, .canyon-info{
+    padding: 5%;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    border: #55B5E9 solid 10px;
+    color: whitesmoke;
+    background-color: #435058;
+    opacity: .9;
+}
+#rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.salmon-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-items: center;
+    justify-items: center;
 
+}
+.salmon-info{
+    grid-column: 2/5;
+    grid-row: 1/2;
+    align-items: center;
+    justify-items: center;
+}
+.utah-card{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-items: center;
+    justify-items: center;
+}
+.utah-info{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    align-items: center;
+    justify-items: center;
+}
+.canyon-card{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.canyon-info{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+.canyon-card:hover{
+    opacity: .9;
+    transform: scale(1.01);
+    transition: transform .5s;
+}
+.salmon-card:hover{
+    opacity: .9;
+    transform: scale(1.01);
+    transition: transform .5s;
+}
+.utah-card:hover{
+    opacity: .9;
+    transform: scale(1.01);
+    transition: transform .5s;
+}    
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
