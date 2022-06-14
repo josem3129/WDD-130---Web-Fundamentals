@@ -191,12 +191,8 @@ footer a:hover{
 .salmon-img, .utah-img, .canyon-img{
     width: 500px;
     height: 500px;
-    float: center;
     object-fit: cover;
-    
     box-shadow: 5px 5px 10px #6f7364;
-    
-    
 }
 .salmon-card, .utah-card, .canyon-card{
     text-align: center;
