@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Rivers</title>
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/Presentation1.png" alt="rafters logo">
+            </a>
+            <nav>
+                <a href="#">Rivers</a>
+                <a href="index.html">Home</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/river-wide2.jpg" alt="People enjoying rafting">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title"> Contact Us</h1>
+               
+                <div class="button-box">
+                    <a class="book" href="rates.html">Book Now</a>
+                </div>
+            </section>
+        </div>
+
+        <main>
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_mail" />
+                    </li>
+                    <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send your message</button>
+                    </li>
+                </ul>
+            </form>
+            <style>
+                form{
+                    margin: 0 auto;
+                    width: 400px;
+                    padding: 1em;
+                    border: 1px solid #ccc;
+                    border-radius: 1em;
+                }
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                }
+                form li + li{
+                    margin-top: 1em;
+                }
+                label{
+                    display: inline-block;
+                    width: 90px;
+                    text-align: right;
+                }
+                input, textarea{
+                    font: 1em sans-serif;
+                    width: 300px;
+                    box-sizing: border-box;
+                    border: 1px solid #999;
+                }
+                input:focus, textarea:focus{
+                    border-color: #000;   
+
+                }
+                textarea{
+                    vertical-align: top;
+                    height: 5em;
+                }
+                .button{
+                    padding-left: 90px;
+                }
+                button{
+                    margin-left: .5em;
+                }
+                #feedback{
+                    background-color: antiquewhite;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    padding: .5em;
+                    display: none;
+                }
+                .moveDown {
+                    margin-top: 3em;
+                }
+            </style>
+        </main>
+        <footer>
+            <h3>RafterZ &copy; 2022 - Jose Martinez</h3>
+            <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon" />
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon" />
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon" />
+                </a>
+
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const feedbackElement = document.getElementById('feedback');
+        const formElement = document.forms[0];
+        formElement.addEventListener('submit', function(e) {
+            e.preventDefault();
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            feedbackElement.style.display = "block";
+            ddocument.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+
+</html>
