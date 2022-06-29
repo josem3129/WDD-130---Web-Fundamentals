@@ -4,7 +4,7 @@
 }
 body {
     background-color: aliceblue;
-    font-family: EB Garamond, Helvetica, sans-serif;
+    font-family: 'EB Garamond', serif;
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -127,6 +127,7 @@ header {
     font-size: 35px;
     color: white;
     
+    
 }
 #backgrownd{
     margin-top: 85px;
@@ -157,4 +158,7 @@ footer a {
 }
 footer a:hover {
     color: #E9D758;
+}
+.info-section h2, .msg, #sub-areas p, footer{
+    font-family: 'Mulish', sans-serif;
 }
