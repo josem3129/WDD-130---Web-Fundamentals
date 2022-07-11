@@ -191,8 +191,9 @@ footer a:hover {
 }
 
 .card-img1, .card-img2{
-    padding: 10px;
+    margin: 10PX;
     border-radius: 25px;
+    border: #0A0F0D solid 5PX;
     
     
 }
@@ -202,13 +203,15 @@ footer a:hover {
     text-align: center;
     font-family: 'Mulish', sans-serif;
     font-size: 50px;
-    margin-top: 100px;
+    margin-top: 120px;
+    margin-right: 150PX;
 }
 .msg1 {
     grid-column: 1/3;
     grid-row: 1/3;
     text-align: center;
-    padding: 200px 50px;
+    margin-right: 150PX;
+    margin-top: 250PX;
     font-family: 'EB Garamond', serif;
     font-size: 35px;
 }
