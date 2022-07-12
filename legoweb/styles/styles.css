@@ -1,6 +1,7 @@
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    
 }
 body {
     background-color: aliceblue;
@@ -262,4 +263,111 @@ footer a:hover {
 .msg2{
     padding-top: 630px;
     text-align: center;
+}
+
+/* 2nd subpage of collecable legos*/
+
+#collect{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+h1{
+    grid-template-columns: 1/6;
+    position: absolute;
+    margin-left: 7em;
+    font-family: 'Mulish', sans-serif;
+    font-size: 60px;
+}
+.starwars-card{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.botanich-card{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.technic-card{
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+.colect-card{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.architecture-card{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.ultimate-card{
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+#collector-info{
+    grid-column: 1/6;
+    grid-row: 3/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.starwars-card, .colect-card{
+    padding: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+.technic-card, .ultimate-card{
+    padding: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+.architecture-card, .botanich-card{
+    padding: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+.collect-img{
+    border-radius: 50%;
+    max-width: 45%;
+}
+section img{
+    max-width: 100%;
+    border-radius: 50px;
+
+    
+}
+#backgrownd-2, .collect-msg, section img{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    position: relative;
+}
+#backgrownd-2{
+    opacity: 80%;
+    background-color: #00C2CB;
+    position: absolute;
+    padding: 390px;
+    margin-top: 12em;
+    margin-left: 800px;
+    z-index: 1;
+    border: #0A0F0D solid 5px;
+    border-radius: 50px;
+}
+.collect-msg{
+    color: white;
+    margin-top: 6.9em;
+    margin-left: 800px;
+    z-index: 2;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+   
+    padding: 20px;
+    display: none;
+}
+.collect-img:hover + h2{
+    display: block;
+}
+.collect-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
