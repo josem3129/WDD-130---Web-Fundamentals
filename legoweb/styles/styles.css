@@ -251,7 +251,7 @@ footer a:hover {
     width: 120px;
     height: 45px;
     margin-top: 550px;
-    margin-left: 270px;
+    margin-left: 258px;
     background-color: #00C2CB;
     color: white;
     border: none;
@@ -272,7 +272,7 @@ footer a:hover {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
 }
-h1{
+.collect-title{
     grid-template-columns: 1/6;
     position: absolute;
     margin-left: 7em;
@@ -359,8 +359,7 @@ section img{
     font-size: 40px;
     text-align: center;
 }
-h2 {
-   
+.card-title {
     padding: 20px;
     display: none;
 }
